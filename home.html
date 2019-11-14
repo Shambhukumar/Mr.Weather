@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MR Weather</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/weather-icons.min.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+  </head>
+  <body>
+    <div id="data-load"></div>
+    <div id="lode" class="loader"></div>
+
+    <header>
+      <ul class="dates"></ul>
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search.." />
+      </div>
+      <h2 id="location">New delhi</h2>
+    </header>
+
+    <section class="section-map">
+      <div id="map"></div>
+    </section>
+
+    <section class="data">
+      <div class="container">
+        <div class="info-current"></div>
+        <div class="info-day"></div>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/bundle.js"></script>
+  </body>
+</html>
